@@ -1,0 +1,108 @@
+// Run this in MongoDB Compass or mongosh
+// Replace the user ObjectIds with actual user IDs from your users collection
+
+db.posts.insertMany([
+  {
+    user: ObjectId("68e1315c500021745d297a16"), // Replace with actual user ID
+    text: "Just deployed my first MERN stack application! Feeling excited about this journey into full-stack development.",
+    name: "John Doe",
+    avatar: "//www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+    likes: [
+      { user: ObjectId("507f1f77bcf86cd799439012") },
+      { user: ObjectId("507f1f77bcf86cd799439013") }
+    ],
+    comments: [
+      {
+        user: ObjectId("507f1f77bcf86cd799439012"),
+        text: "Congratulations! MERN stack is awesome. What did you build?",
+        name: "Jane Smith",
+        avatar: "//www.gravatar.com/avatar/305e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+        date: new Date("2024-10-02T10:30:00Z")
+      },
+      {
+        user: ObjectId("507f1f77bcf86cd799439013"),
+        text: "Great work! Keep it up!",
+        name: "Bob Johnson",
+        avatar: "//www.gravatar.com/avatar/405e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+        date: new Date("2024-10-02T14:20:00Z")
+      }
+    ],
+    date: new Date("2024-10-02T09:15:00Z")
+  },
+  {
+    user: ObjectId("507f1f77bcf86cd799439012"),
+    text: "Looking for recommendations on the best React state management libraries. Redux or Context API?",
+    name: "Jane Smith",
+    avatar: "//www.gravatar.com/avatar/305e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+    likes: [
+      { user: ObjectId("68e1315c500021745d297a16") }
+    ],
+    comments: [
+      {
+        user: ObjectId("68e1315c500021745d297a16"),
+        text: "For small apps, Context API is perfect. For complex state, go with Redux Toolkit!",
+        name: "John Doe",
+        avatar: "//www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+        date: new Date("2024-10-03T08:45:00Z")
+      }
+    ],
+    date: new Date("2024-10-03T07:30:00Z")
+  },
+  {
+    user: ObjectId("507f1f77bcf86cd799439013"),
+    text: "Does anyone have experience with MongoDB aggregation pipelines? Working on a complex query and could use some help.",
+    name: "Bob Johnson",
+    avatar: "//www.gravatar.com/avatar/405e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+    likes: [],
+    comments: [],
+    date: new Date("2024-10-03T16:00:00Z")
+  },
+  {
+    user: ObjectId("68e1315c500021745d297a16"),
+    text: "Pro tip: Always validate your inputs on both frontend and backend. Security is not optional!",
+    name: "John Doe",
+    avatar: "//www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+    likes: [
+      { user: ObjectId("507f1f77bcf86cd799439012") },
+      { user: ObjectId("507f1f77bcf86cd799439013") },
+      { user: ObjectId("507f1f77bcf86cd799439014") }
+    ],
+    comments: [
+      {
+        user: ObjectId("507f1f77bcf86cd799439012"),
+        text: "Absolutely! Never trust user input.",
+        name: "Jane Smith",
+        avatar: "//www.gravatar.com/avatar/305e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+        date: new Date("2024-10-04T09:10:00Z")
+      }
+    ],
+    date: new Date("2024-10-04T08:00:00Z")
+  },
+  {
+    user: ObjectId("507f1f77bcf86cd799439012"),
+    text: "Just finished a 100-day coding challenge! Consistency really is the key to learning.",
+    name: "Jane Smith",
+    avatar: "//www.gravatar.com/avatar/305e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+    likes: [
+      { user: ObjectId("68e1315c500021745d297a16") },
+      { user: ObjectId("507f1f77bcf86cd799439013") }
+    ],
+    comments: [
+      {
+        user: ObjectId("68e1315c500021745d297a16"),
+        text: "That's amazing! What was your biggest takeaway?",
+        name: "John Doe",
+        avatar: "//www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+        date: new Date("2024-10-04T12:30:00Z")
+      },
+      {
+        user: ObjectId("507f1f77bcf86cd799439013"),
+        text: "Congrats! You're an inspiration!",
+        name: "Bob Johnson",
+        avatar: "//www.gravatar.com/avatar/405e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+        date: new Date("2024-10-04T13:00:00Z")
+      }
+    ],
+    date: new Date("2024-10-04T11:45:00Z")
+  }
+]);

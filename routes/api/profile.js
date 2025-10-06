@@ -24,19 +24,23 @@ router.get('/test', (req, res) => res.json({ msg: 'Profile Works' }));
 router.get(
   '/',
   passport.authenticate('jwt', { session: false }),
-  (req, res) => {
-    const errors = {};
+  async (req, res) => {
+    req.user.id ="68e340b1156537138d295562";
+    console.log(req.user.id);
 
-    Profile.findOne({ user: req.user.id })
-      .populate('user', ['name', 'avatar'])
-      .then(profile => {
-        if (!profile) {
-          errors.noprofile = 'There is no profile for this user';
-          return res.status(404).json(errors);
-        }
-        res.json(profile);
-      })
-      .catch(err => res.status(404).json(err));
+
+    try {
+      const profile = await Profile.findOne({ user: req.user.id })
+        .populate('user', ['name', 'avatar']);
+
+      if (!profile) {
+        return res.status(404).json({ noprofile: 'There is no profile for this user',profile });
+      }
+
+      res.json(profile);
+    } catch (err) {
+      res.status(404).json(err);
+    }
   }
 );
 

@@ -97,7 +97,7 @@ router.post('/login', (req, res) => {
         // FIX: Return token wrapped in an object
         res.status(200).json({ 
           success: true,
-          token: token  // Changed from res.json(token) to res.json({ token })
+          token: `Bearer ${token}`  // Changed from res.json(token) to res.json({ token })
         });
       } else {
         errors.password = 'Password incorrect';

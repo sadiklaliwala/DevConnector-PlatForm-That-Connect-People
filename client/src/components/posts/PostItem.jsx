@@ -89,14 +89,14 @@ const PostItem = ({ post, showActions = true }) => {
   );
 };
 
-PostItem.defaultProps = {
-  showActions: true
-};
+// PostItem.defaultProps = {
+//   showActions: true
+// };
 
-PostItem.propTypes = {
-  post: PropTypes.object.isRequired,
-  auth: PropTypes.object.isRequired,
-  showActions: PropTypes.bool
-};
+// PostItem.propTypes = {
+//   post: PropTypes.object.isRequired,
+//   auth: PropTypes.object.isRequired,
+//   showActions: PropTypes.bool
+// };
 
 export default PostItem;

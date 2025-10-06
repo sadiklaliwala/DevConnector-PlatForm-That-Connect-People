@@ -63,10 +63,10 @@ const PostForm = () => {
   );
 };
 
-PostForm.propTypes = {
-  addPost: PropTypes.func, // optional, since we're using dispatch
-  auth: PropTypes.object,
-  errors: PropTypes.object,
-};
+// PostForm.propTypes = {
+//   addPost: PropTypes.func, // optional, since we're using dispatch
+//   auth: PropTypes.object,
+//   errors: PropTypes.object,
+// };
 
 export default PostForm;

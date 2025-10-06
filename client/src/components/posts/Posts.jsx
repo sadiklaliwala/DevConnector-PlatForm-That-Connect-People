@@ -26,17 +26,14 @@ const Posts = () => {
   }
 
   useEffect(() => {
-  console.log('📍 Posts component mounted, fetching posts...');
-  dispatch(getPosts());
-}, [dispatch]);
+    console.log("📍 Posts component mounted, fetching posts...");
+    dispatch(getPosts());
+  }, [dispatch]);
 
-useEffect(() => {
-  console.log('📦 Posts state:', posts);
-  console.log('⏳ Loading:', loading);
-}, [posts, loading]);
-
-
-
+  useEffect(() => {
+    console.log("📦 Posts state:", posts);
+    console.log("⏳ Loading:", loading);
+  }, [posts, loading]);
 
   return (
     <div className="feed">
@@ -50,10 +47,6 @@ useEffect(() => {
       </div>
     </div>
   );
-};
-
-Posts.propTypes = {
-  post: PropTypes.object, // optional, since we're using hooks
 };
 
 export default Posts;

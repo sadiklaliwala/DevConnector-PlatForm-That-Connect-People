@@ -9,6 +9,8 @@ import {
   SET_CURRENT_USER
 } from './types';
 
+
+
 // Get current profile
 export const getCurrentProfile = () => async (dispatch) => {
   dispatch(setProfileLoading());

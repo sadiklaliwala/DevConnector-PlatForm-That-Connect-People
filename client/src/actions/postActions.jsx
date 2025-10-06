@@ -31,7 +31,9 @@ export const addPost = (postData) => async (dispatch) => {
 export const getPosts = () => async (dispatch) => {
   dispatch(setPostLoading());
   try {
-    const res = await axios.get('/api/posts');
+        console.log('🟡 Making request to /api/posts');        
+        const res = await axios.get('/api/posts');
+        console.log('🟡request commed ',res.data);
     dispatch({
       type: GET_POSTS,
       payload: res.data

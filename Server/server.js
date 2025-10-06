@@ -10,8 +10,17 @@ const helmet = require('helmet');
 const cors = require('cors');
 const rateLimit = require('express-rate-limit');
 const morgan = require('morgan');
-
 const app = express();
+const cors = require('cors');
+
+
+app.use(cors({
+  origin: [
+    "https://dev-connector-plat-form-that-connec.vercel.app/",  // Update after Vercel deployment
+    'http://localhost:3000'
+  ],
+  credentials: true
+}));
 
 // Security middleware
 app.use(helmet());

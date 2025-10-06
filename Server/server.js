@@ -11,9 +11,10 @@ const cors = require('cors');
 const rateLimit = require('express-rate-limit');
 const morgan = require('morgan');
 const app = express();
-const cors = require('cors');
 
 
+// Security middleware
+app.use(helmet());
 app.use(cors({
   origin: [
     "https://dev-connector-plat-form-that-connec.vercel.app/",  // Update after Vercel deployment
@@ -22,9 +23,6 @@ app.use(cors({
   credentials: true
 }));
 
-// Security middleware
-app.use(helmet());
-app.use(cors());
 
 
 // Rate limiting

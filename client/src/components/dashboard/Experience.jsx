@@ -5,11 +5,16 @@ import dayjs from 'dayjs';
 import { deleteExperience } from '../../actions/profileActions';
 
 const Experience = ({ experience }) => {
+  if (!experience || experience.length === 0) {
+    return <p>No experience added yet</p>;
+  }
   const dispatch = useDispatch();
 
   const onDeleteClick = (id) => {
     dispatch(deleteExperience(id));
   };
+
+
 
   const experienceRows = experience.map((exp) => (
     <tr key={exp._id}>

@@ -10,6 +10,7 @@ import Education from './Education';
 import { getCurrentProfile, deleteAccount } from '../../actions/profileActions';
 
 const Dashboard = () => {
+  console.log("deshboard");
   const dispatch = useDispatch();
 
   const auth = useSelector(state => state.auth);

@@ -5,6 +5,10 @@ import dayjs from 'dayjs';
 import { deleteEducation } from '../../actions/profileActions';
 
 const Education = ({ education }) => {
+  if (!education|| education.length === 0) {
+    return <p>No education  added yet</p>;
+  }
+
   const dispatch = useDispatch();
 
   const onDeleteClick = (id) => {

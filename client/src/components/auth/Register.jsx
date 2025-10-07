@@ -6,6 +6,8 @@ import { registerUser } from '../../actions/authActions';
 import TextFieldGroup from '../common/TextFieldGroup';
 
 const Register = () => {
+
+  
   const dispatch = useDispatch();
   const navigate = useNavigate();
 

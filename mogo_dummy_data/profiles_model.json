@@ -1,0 +1,262 @@
+[{
+  "_id": {
+    "$oid": "68e1fd5668c9516daee433b3"
+  },
+  "user": {
+    "$oid": "68e1315c500021745d297a16"
+  },
+  "handle": "sadiklaliwala",
+  "company": "TechNova Solutions",
+  "website": "https://sadik.dev",
+  "location": "Ahmedabad, India",
+  "status": "Full Stack Developer",
+  "skills": [
+    "JavaScript",
+    "Node.js",
+    "React",
+    "MongoDB"
+  ],
+  "bio": "Passionate developer building scalable web systems.",
+  "githubusername": "sadiklaliwala",
+  "experience": [
+    {
+      "title": "developer",
+      "company": "rmoima info texh ",
+      "location": "Ahmedabad",
+      "from": {
+        "$date": "2004-12-31T00:00:00.000Z"
+      },
+      "to": {
+        "$date": "2025-10-06T00:00:00.000Z"
+      },
+      "current": false,
+      "description": "lining in this world",
+      "_id": {
+        "$oid": "68e34a2884a33adfdf123141"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "68e34a2884a33adfdf12313f"
+      },
+      "title": "Backend Engineer",
+      "company": "TechNova Solutions",
+      "location": "Ahmedabad",
+      "from": {
+        "$date": "2023-05-01T00:00:00.000Z"
+      },
+      "current": true,
+      "description": "Building APIs and real-time dashboards."
+    }
+  ],
+  "education": [
+    {
+      "school": "Gujarat University",
+      "degree": "MCA",
+      "fieldofstudy": "Computer Applications",
+      "from": "2022-06-01",
+      "to": "2025-06-01",
+      "current": true
+    }
+  ],
+  "social": {
+    "linkedin": "https://linkedin.com/in/sadik"
+  },
+  "date": "2024-11-12T10:00:00Z",
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "68e1fd5668c9516daee433b4"
+  },
+  "user": "6719a1e4f1a2b8a3c1e00002",
+  "handle": "priyasharma",
+  "company": "Innovatech",
+  "website": "https://priyasharma.dev",
+  "location": "Pune, India",
+  "status": "Frontend Developer",
+  "skills": [
+    "HTML",
+    "CSS",
+    "React",
+    "UI/UX"
+  ],
+  "bio": "Frontend enthusiast crafting beautiful interfaces.",
+  "githubusername": "priyasharma",
+  "experience": [
+    {
+      "title": "UI Developer",
+      "company": "Innovatech",
+      "from": "2022-09-01",
+      "current": true
+    }
+  ],
+  "education": [
+    {
+      "school": "Symbiosis Institute",
+      "degree": "B.Tech",
+      "fieldofstudy": "Computer Science",
+      "from": "2018-06-01",
+      "to": "2022-06-01"
+    }
+  ],
+  "social": {
+    "linkedin": "https://linkedin.com/in/priyasharma"
+  },
+  "date": "2024-11-13T10:00:00Z"
+},
+{
+  "_id": {
+    "$oid": "68e1fd5668c9516daee433b5"
+  },
+  "user": "6719a1e4f1a2b8a3c1e00003",
+  "handle": "rahulmehta",
+  "company": "DataEdge",
+  "website": "https://rahulmehta.tech",
+  "location": "Bangalore, India",
+  "status": "DevOps Engineer",
+  "skills": [
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "CI/CD"
+  ],
+  "bio": "Automation freak and cloud enthusiast.",
+  "githubusername": "rahulmehta",
+  "experience": [
+    {
+      "title": "DevOps Engineer",
+      "company": "DataEdge",
+      "from": "2021-03-01",
+      "current": true
+    }
+  ],
+  "education": [
+    {
+      "school": "IIT Bombay",
+      "degree": "B.Tech",
+      "fieldofstudy": "Information Technology",
+      "from": "2017-06-01",
+      "to": "2021-05-01"
+    }
+  ],
+  "social": {
+    "linkedin": "https://linkedin.com/in/rahulmehta"
+  },
+  "date": "2024-11-14T10:00:00Z"
+},
+{
+  "_id": {
+    "$oid": "68e347e57f418218fe246e0c"
+  },
+  "user": {
+    "$oid": "6719a1e4f1a2b8a3c1e00001"
+  },
+  "handle": "johndeveloper",
+  "company": "Tech Solutions Inc",
+  "website": "https://johndeveloper.com",
+  "location": "San Francisco, CA",
+  "status": "Senior Developer",
+  "skills": [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "MongoDB",
+    "Express",
+    "Redux"
+  ],
+  "bio": "Full-stack developer with 5+ years of experience building scalable web applications. Passionate about clean code and modern web technologies.",
+  "githubusername": "johndeveloper",
+  "experience": [
+    {
+      "title": "Senior Full Stack Developer",
+      "company": "Tech Solutions Inc",
+      "location": "San Francisco, CA",
+      "from": {
+        "$date": "2022-01-15T00:00:00.000Z"
+      },
+      "to": null,
+      "current": true,
+      "description": "Leading development of enterprise-level web applications using MERN stack. Mentoring junior developers and conducting code reviews."
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "StartupXYZ",
+      "location": "Remote",
+      "from": {
+        "$date": "2019-06-01T00:00:00.000Z"
+      },
+      "to": {
+        "$date": "2021-12-31T00:00:00.000Z"
+      },
+      "current": false,
+      "description": "Developed and maintained multiple client projects using React, Node.js, and MongoDB. Improved application performance by 40%."
+    }
+  ],
+  "education": [
+    {
+      "school": "University of California",
+      "degree": "Bachelor of Science",
+      "fieldofstudy": "Computer Science",
+      "from": {
+        "$date": "2015-09-01T00:00:00.000Z"
+      },
+      "to": {
+        "$date": "2019-05-31T00:00:00.000Z"
+      },
+      "current": false,
+      "description": "Focused on software engineering and web development. Dean's list all semesters."
+    }
+  ],
+  "social": {
+    "youtube": "https://youtube.com/@johndeveloper",
+    "twitter": "https://twitter.com/johndeveloper",
+    "facebook": "https://facebook.com/johndeveloper",
+    "linkedin": "https://linkedin.com/in/johndeveloper",
+    "instagram": "https://instagram.com/johndeveloper"
+  },
+  "date": {
+    "$date": "2025-10-06T04:39:01.830Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e34ac084a33adfdf1231b8"
+  },
+  "user": {
+    "$oid": "68e340b1156537138d295562"
+  },
+  "handle": "sadik king",
+  "company": "roima",
+  "location": "Ahmedabad, Gujarat, India",
+  "status": "Junior Developer",
+  "skills": [
+    "everything"
+  ],
+  "bio": "this is my world i am every thing ",
+  "githubusername": "sadiklaliwala",
+  "experience": [
+    {
+      "title": "title",
+      "company": "roima",
+      "location": "Ahmedabad",
+      "from": {
+        "$date": "2004-05-02T00:00:00.000Z"
+      },
+      "to": {
+        "$date": "2004-05-05T00:00:00.000Z"
+      },
+      "current": false,
+      "description": "fhvkrbej",
+      "_id": {
+        "$oid": "68e34ae684a33adfdf1231c8"
+      }
+    }
+  ],
+  "education": [],
+  "date": {
+    "$date": "2025-10-06T04:51:12.869Z"
+  },
+  "__v": 1,
+  "social": {}
+}]

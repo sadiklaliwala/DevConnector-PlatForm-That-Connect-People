@@ -1,0 +1,282 @@
+[{
+  "_id": {
+    "$oid": "68e13272f78e58c0512723ae"
+  },
+  "user": {
+    "$oid": "68e1315c500021745d297a16"
+  },
+  "text": "Just deployed my first MERN stack application! Feeling excited about this journey into full-stack development.",
+  "name": "John Doe",
+  "avatar": "//www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+  "likes": [
+    {
+      "user": {
+        "$oid": "507f1f77bcf86cd799439012"
+      }
+    },
+    {
+      "user": {
+        "$oid": "507f1f77bcf86cd799439013"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "user": {
+        "$oid": "507f1f77bcf86cd799439012"
+      },
+      "text": "Congratulations! MERN stack is awesome. What did you build?",
+      "name": "Jane Smith",
+      "avatar": "//www.gravatar.com/avatar/305e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+      "date": {
+        "$date": "2024-10-02T10:30:00.000Z"
+      }
+    },
+    {
+      "user": {
+        "$oid": "507f1f77bcf86cd799439013"
+      },
+      "text": "Great work! Keep it up!",
+      "name": "Bob Johnson",
+      "avatar": "//www.gravatar.com/avatar/405e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+      "date": {
+        "$date": "2024-10-02T14:20:00.000Z"
+      }
+    }
+  ],
+  "date": {
+    "$date": "2024-10-02T09:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e13272f78e58c0512723af"
+  },
+  "user": {
+    "$oid": "507f1f77bcf86cd799439012"
+  },
+  "text": "Looking for recommendations on the best React state management libraries. Redux or Context API?",
+  "name": "Jane Smith",
+  "avatar": "//www.gravatar.com/avatar/305e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+  "likes": [
+    {
+      "user": {
+        "$oid": "68e1315c500021745d297a16"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "user": {
+        "$oid": "68e1315c500021745d297a16"
+      },
+      "text": "For small apps, Context API is perfect. For complex state, go with Redux Toolkit!",
+      "name": "John Doe",
+      "avatar": "//www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+      "date": {
+        "$date": "2024-10-03T08:45:00.000Z"
+      }
+    }
+  ],
+  "date": {
+    "$date": "2024-10-03T07:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e13272f78e58c0512723b0"
+  },
+  "user": {
+    "$oid": "507f1f77bcf86cd799439013"
+  },
+  "text": "Does anyone have experience with MongoDB aggregation pipelines? Working on a complex query and could use some help.",
+  "name": "Bob Johnson",
+  "avatar": "//www.gravatar.com/avatar/405e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+  "likes": [],
+  "comments": [],
+  "date": {
+    "$date": "2024-10-03T16:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e13272f78e58c0512723b1"
+  },
+  "user": {
+    "$oid": "68e1315c500021745d297a16"
+  },
+  "text": "Pro tip: Always validate your inputs on both frontend and backend. Security is not optional!",
+  "name": "John Doe",
+  "avatar": "//www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+  "likes": [
+    {
+      "user": {
+        "$oid": "507f1f77bcf86cd799439012"
+      }
+    },
+    {
+      "user": {
+        "$oid": "507f1f77bcf86cd799439013"
+      }
+    },
+    {
+      "user": {
+        "$oid": "507f1f77bcf86cd799439014"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "user": {
+        "$oid": "507f1f77bcf86cd799439012"
+      },
+      "text": "Absolutely! Never trust user input.",
+      "name": "Jane Smith",
+      "avatar": "//www.gravatar.com/avatar/305e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+      "date": {
+        "$date": "2024-10-04T09:10:00.000Z"
+      }
+    }
+  ],
+  "date": {
+    "$date": "2024-10-04T08:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e13272f78e58c0512723b2"
+  },
+  "user": {
+    "$oid": "507f1f77bcf86cd799439012"
+  },
+  "text": "Just finished a 100-day coding challenge! Consistency really is the key to learning.",
+  "name": "Jane Smith",
+  "avatar": "//www.gravatar.com/avatar/305e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+  "likes": [
+    {
+      "user": {
+        "$oid": "68e1315c500021745d297a16"
+      }
+    },
+    {
+      "user": {
+        "$oid": "507f1f77bcf86cd799439013"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "user": {
+        "$oid": "68e1315c500021745d297a16"
+      },
+      "text": "this is goodf wa y",
+      "name": "Sadik Laliwala",
+      "avatar": "//www.gravatar.com/avatar/e9ab74ff2c62624e2324e01ecb334069?s=200&r=pg&d=mm",
+      "_id": {
+        "$oid": "68e349d884a33adfdf12312e"
+      },
+      "date": {
+        "$date": "2025-10-06T04:47:20.801Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "68e349cc84a33adfdf12311d"
+      },
+      "user": {
+        "$oid": "507f1f77bcf86cd799439013"
+      },
+      "text": "Congrats! You're an inspiration!",
+      "name": "Bob Johnson",
+      "avatar": "//www.gravatar.com/avatar/405e460b479e2e5b48aec07710c08d50?s=200&r=pg&d=mm",
+      "date": {
+        "$date": "2024-10-04T13:00:00.000Z"
+      }
+    }
+  ],
+  "date": {
+    "$date": "2024-10-04T11:45:00.000Z"
+  },
+  "__v": 4
+},
+{
+  "_id": {
+    "$oid": "68e1fd8268c9516daee433b9"
+  },
+  "user": "6719a1e4f1a2b8a3c1e00001",
+  "text": "Excited to share my new MERN stack project!",
+  "name": "Sadik Laliwala",
+  "avatar": "https://i.pravatar.cc/150?img=10",
+  "likes": [
+    {
+      "user": "6719a1e4f1a2b8a3c1e00002"
+    },
+    {
+      "user": "6719a1e4f1a2b8a3c1e00003"
+    }
+  ],
+  "comments": [
+    {
+      "user": "6719a1e4f1a2b8a3c1e00002",
+      "text": "That's awesome Sadik!",
+      "name": "Priya Sharma",
+      "avatar": "https://i.pravatar.cc/150?img=12"
+    },
+    {
+      "user": "6719a1e4f1a2b8a3c1e00003",
+      "text": "Can't wait to see the demo!",
+      "name": "Rahul Mehta",
+      "avatar": "https://i.pravatar.cc/150?img=14"
+    }
+  ],
+  "date": "2024-12-10T09:00:00Z"
+},
+{
+  "_id": {
+    "$oid": "68e1fd8268c9516daee433ba"
+  },
+  "user": "6719a1e4f1a2b8a3c1e00002",
+  "text": "Just completed my new UI component library 💅",
+  "name": "Priya Sharma",
+  "avatar": "https://i.pravatar.cc/150?img=12",
+  "likes": [
+    {
+      "user": "6719a1e4f1a2b8a3c1e00001"
+    }
+  ],
+  "comments": [
+    {
+      "user": "6719a1e4f1a2b8a3c1e00003",
+      "text": "Looks really sleek, great job Priya!",
+      "name": "Rahul Mehta",
+      "avatar": "https://i.pravatar.cc/150?img=14"
+    }
+  ],
+  "date": "2024-12-11T09:00:00Z"
+},
+{
+  "_id": {
+    "$oid": "68e1fd8268c9516daee433bb"
+  },
+  "user": "6719a1e4f1a2b8a3c1e00003",
+  "text": "Optimized deployment pipelines using GitHub Actions 🚀",
+  "name": "Rahul Mehta",
+  "avatar": "https://i.pravatar.cc/150?img=14",
+  "likes": [
+    {
+      "user": "6719a1e4f1a2b8a3c1e00001"
+    },
+    {
+      "user": "6719a1e4f1a2b8a3c1e00002"
+    }
+  ],
+  "comments": [
+    {
+      "user": "6719a1e4f1a2b8a3c1e00001",
+      "text": "That's really useful! Great work Rahul.",
+      "name": "Sadik Laliwala",
+      "avatar": "https://i.pravatar.cc/150?img=10"
+    }
+  ],
+  "date": "2024-12-12T09:00:00Z"
+}]

@@ -25,9 +25,7 @@ router.get(
   '/',
   passport.authenticate('jwt', { session: false }),
   async (req, res) => {
-    req.user.id ="68e340b1156537138d295562";
-    console.log(req.user.id);
-
+    
 
     try {
       const profile = await Profile.findOne({ user: req.user.id })

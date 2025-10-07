@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "68e1315c500021745d297a16"
+  },
+  "name": "Sadik Laliwala",
+  "email": "sadikking@gmail.com",
+  "password": "$2a$10$64rYFrN2vMy0uYhlqTrUae3814uo1a3x2IlYNryTKau5pwbPdwhuG",
+  "avatar": "//www.gravatar.com/avatar/e9ab74ff2c62624e2324e01ecb334069?s=200&r=pg&d=mm",
+  "date": {
+    "$date": "2025-10-04T14:38:20.142Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "6719a1e4f1a2b8a3c1e00001",
+  "name": "Sadik Laliwala",
+  "email": "sadik@example.com",
+  "password": "$2a$10$abcdhashedpasswordsadik",
+  "avatar": "https://i.pravatar.cc/150?img=10",
+  "date": "2024-11-12T10:00:00Z"
+},
+{
+  "_id": "6719a1e4f1a2b8a3c1e00002",
+  "name": "Priya Sharma",
+  "email": "priya@example.com",
+  "password": "$2a$10$abcdhashedpasswordpriya",
+  "avatar": "https://i.pravatar.cc/150?img=12",
+  "date": "2024-11-13T10:00:00Z"
+},
+{
+  "_id": "6719a1e4f1a2b8a3c1e00003",
+  "name": "Rahul Mehta",
+  "email": "rahul@example.com",
+  "password": "$2a$10$abcdhashedpasswordrahul",
+  "avatar": "https://i.pravatar.cc/150?img=14",
+  "date": "2024-11-14T10:00:00Z"
+},
+{
+  "_id": {
+    "$oid": "68e340b1156537138d295562"
+  },
+  "name": "sadik",
+  "email": "sadik@gmail.com",
+  "password": "$2a$10$YrnrXiL4oFtFIQ2rZtJsI.a4JY2czeHlsTwg70q6di2UTXUZEKMGK",
+  "avatar": "//www.gravatar.com/avatar/e076d40477ce92363705bdaf639ad2d9?s=200&r=pg&d=mm",
+  "date": {
+    "$date": "2025-10-06T04:08:17.031Z"
+  },
+  "__v": 0
+}]
